@@ -1,0 +1,59 @@
+.connectPage {
+  background: #fb8500;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.left-container {
+  flex-basis: 30%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.right-container {
+  flex-basis: 70%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #111;
+  color: #fff;
+}
+
+.btn {
+  background-color: #fb8500;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  width: 16rem;
+  margin: 1rem 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-black {
+  background-color: #111;
+  color: #fff;
+}
+
+.border-white {
+  border: 2px solid #fff;
+  box-shadow: none;
+}
+
+:where(.css-dev-only-do-not-override-1s3dcof).ant-spin-nested-loading
+  .ant-spin-blur {
+  opacity: 0.9;
+}
+
+.ant-spin-container::after {
+  background: #111 !important;
+}

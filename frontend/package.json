@@ -1,0 +1,75 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.8.0",
+    "@biconomy/core-types": "0.0.2",
+    "@biconomy/smart-account": "0.0.2",
+    "@biconomy/web3-auth": "0.0.2",
+    "@metamask/eth-sig-util": "^5.0.2",
+    "@pushprotocol/restapi": "0.2.1",
+    "@pushprotocol/uiweb": "0.2.3",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "antd": "^5.0.3",
+    "ascii85": "^1.0.2",
+    "crypto-js": "^4.1.1",
+    "ethers": "^5.6.9",
+    "ipfs-http-client": "^59.0.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.4.4",
+    "react-scripts": "5.0.1",
+    "sort-by": "^1.2.0",
+    "styled-components": "^5.3.6",
+    "truffle": "^5.6.8",
+    "typescript": "^4.4.2",
+    "vercel": "^28.7.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "prestart": "truffle compile && cp -r build/contracts src/contracts",
+    "prebuild": "truffle compile && cp -r build/contracts src/contracts"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "chrome >= 67",
+      "edge >= 79",
+      "firefox >= 68",
+      "opera >= 54",
+      "safari >= 14"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  }
+}
